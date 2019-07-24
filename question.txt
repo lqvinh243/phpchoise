@@ -1,0 +1,6 @@
+id|question
+0|Khi bạn đi đến một nơi nào đó trong ngày, bạn sẽ
+1|Nếu bạn là một giáo viên, bạn muốn dạy
+2|Thường thì bạn có phải là một người
+3|Bạn thường xuyên hành động theo
+4|Khi làm những việc mà nhiều người khác vẫn thường hay làm, thì ý nào (dưới đây) hấp dẫn bạn hơn

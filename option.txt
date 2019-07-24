@@ -1,0 +1,10 @@
+0|a|lên danh sách các công việc và thời gian thực hiện các công việc khi bạn đến đó|2
+0|b|nghĩ đến công việc sẽ làm rồi đi thôi|6
+1|a|các khóa học thực nghiệm (thực tế)|1
+1|b|các khóa học liên quan đến lý thuyết|5
+2|a|chủ động giao lưu/giao tiếp|3
+2|b|trầm tính và dè dặt|2
+3|a|cảm tính, trái tim sẽ đưa ra quyết định|4
+3|b|lý trí, suy nghĩ logic rồi đưa ra quyết định, không để tình cảm xen lẫn vào quyết định|7
+4|a|phát triển theo cách riêng của bạn, hay|2
+4|b|làm theo cách truyền thống (đã được công nhận rộng rãi)|3
