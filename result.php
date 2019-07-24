@@ -25,8 +25,20 @@
 </head>
 <body>
     <?php
-    $result = $_REQUEST;
-    $total = 0;array_pop($result);
+    
+    $data = file("question.txt") or die("Cannot read file");
+    array_shift($data);
+    $point = $_REQUEST;
+    $total = 0;
+    array_pop($point);
+    
+    foreach($data as $key => $value)
+    {
+        $tmp = explode("|",$value);
+        $id = $tmp[0];
+        $point[$id] = (int)$point[$id];
+        $total = $total + $point[$id];
+    }
 
     $data = file("result.txt") or die("Cannot read file");
     array_shift($data);
@@ -38,7 +50,6 @@
         $array_result[$key]["max"] = $tmp[1];
         $array_result[$key]["description"] = $tmp[2];
     }
-    $total = array_sum($result);
     ?>
     <div class="container">
         <h1>Điểm của bạn là <?php echo $total?></h1>
